@@ -16,7 +16,7 @@ const Hero = () => {
       <div className='w-[90%]'>
         <div className='flex max-sm:flex-col max-sm:items-start justify-between items-center max-xl:py-10 max-sm:py-0'>
           <div className='space-y-10 max-xl:space-y-5 max-sm:space-y-3 ml-20 max-lg:ml-0'>
-            <h1 className='text-[41px] max-xl:text-[30px] max-lg:text-[24px] text-[#062B43] font-bold leading-[48px] max-md:leading-[30px]'>Hire India's top <br />full-time <span className='bg-gradient-to-r from-[#514BD2] to-[#D0904B] bg-clip-text text-transparent'>Remote Talent</span></h1>
+            <h1 className='text-[41px] max-xl:text-[30px] max-lg:text-[24px] text-[#062B43] font-bold leading-[48px] max-md:leading-[30px]'>Hire India&apos;s top <br />full-time <span className='bg-gradient-to-r from-[#514BD2] to-[#D0904B] bg-clip-text text-transparent'>Remote Talent</span></h1>
             <p className='text-[20px] max-xl:text-[16px] max-lg:text-[14px] text-[#175574] font-medium'>AI-driven platform that makes hiring reliable,<br /> simple, and fast.</p>
             <div className='flex gap-10 max-xl:gap-5 max-md:gap-2'>
               <Link href='/' className='text-white text-[18px] max-md:tracking-tighter max-xl:text-[16px] max-lg:text-[14px] max-sm:text-[12px] bg-gradient-to-r from-[#D79442] to-[#FFB55B] rounded-[30px] px-5 py-2 max-sm:px-3 max-sm:py-1'>Hire Talents</Link>

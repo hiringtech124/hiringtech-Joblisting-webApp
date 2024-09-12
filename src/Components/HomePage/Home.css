@@ -1,0 +1,30 @@
+.bgImg {
+    background-image: url('./assets/dots.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .bgImg img {
+    width: auto; /* Ensure the width scales as per the image */
+    height: 100%; /* Set appropriate height */
+    animation: slide 10s linear infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(100%); /* Start from the right */
+    }
+    50% {
+      transform: translateX(0); /* Center of the screen */
+    }
+    100% {
+      transform: translateX(-100%); /* Move completely to the left */
+    }
+  }
+  

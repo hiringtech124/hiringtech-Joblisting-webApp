@@ -1,11 +1,12 @@
 module.exports = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx}', // Ensure you're watching all JS/TS files in pages folder
-    './components/**/*.{js,ts,jsx,tsx}', // Same for components folder
-    './app/**/*.{js,ts,jsx,tsx}', // If you're using the app directory (Next.js 13+)
-  ],
+  mode: 'jit', // Enable Just-In-Time mode for improved performance
+  content: ["./src/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {}, // You can add custom theme configurations or overrides here
   },
-  plugins: [],
+  variants: {}, // Define variants for your theme (e.g., dark mode, responsive design)
+  plugins: [
+    // Add plugins as needed, such as autoprefixer
+    // require('autoprefixer'),
+  ],
 }
